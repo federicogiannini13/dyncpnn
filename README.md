@@ -1,5 +1,7 @@
 # DYNcPNN
-This repository contains the code used for the experimentation shown in the paper.
+This repository accompanies the paper "Dynamic Continuous Progressive Neural Networks for Evolving Streaming Time Series" by Federico Giannini, Giacomo Ziffer, and Emanuele Della Valle (Politecnico di Milano).
+
+It contains the full implementation of the proposed DYNcPNN model and the code used to run the experiments presented in the paper.
 
 ## 1) Installation
 execute:
@@ -13,6 +15,7 @@ execute:
 ## 2) Project structure
 The project is composed of the following directories.
 #### datasets
+Download `datasets.zip` from [here](https://drive.google.com/file/d/12MjLQhkL-EAS1dd0RlxP0bJ5rvmHG6j5/view?usp=sharing).
 It contains the configurations of each data sources.
 Each file's name has the following structure: **\<data_source\>\_\<id_configuration\>conf\_\<train_or_test\>.csv**.
 
